@@ -17,6 +17,8 @@ Before you begin, ensure you have the following installed and configured:
 ## Available Labs
 
 *   **Vulnerable-ASG**: A scenario demonstrating a vulnerable Auto Scaling Group configuration. See the `Scenario.md` file within the `Vulnerable-ASG` directory for more details.
+*   **Vulnerable-Lambda**: A scenario demonstrating a Server-Side Request Forgery (SSRF) vulnerability in an AWS Lambda function allowing file reads. See the `Scenario.md` file within the `Vulnerable-Lambda` directory for more details.
+*   **EC2-Privesc-UserData**: A scenario demonstrating EC2 privilege escalation by abusing `ec2:ModifyInstanceAttribute` to overwrite instance user data. See the `Scenario.md` file within the `EC2-Privesc-UserData` directory for more details.
 
 ## How to Use
 
