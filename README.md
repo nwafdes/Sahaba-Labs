@@ -1,3 +1,5 @@
+![Arabic man and camel in the desert](https://github.com/nwafdes/Sahaba-Labs/blob/main/Gemini_Generated_Image_mpt2nimpt2nimpt2.png?raw=true)
+
 # Sahaba-Labs
 
 This repository contains a collection of labs created for learning and practicing specific scenarios, primarily focused on cloud and security.
