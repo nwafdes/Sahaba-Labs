@@ -52,7 +52,8 @@ resource "aws_iam_user_policy" "backup_policy" {
           "s3:PutReplicationConfiguration",
           "s3:GetReplicationConfiguration",
           "s3:ListBucket",
-          "s3:GetBucketVersioning"
+          "s3:GetBucketVersioning",
+          "s3:ListAllMyBuckets"
         ]
         Resource = "*"
       },
