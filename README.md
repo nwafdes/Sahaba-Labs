@@ -16,12 +16,6 @@ Before you begin, ensure you have the following installed and configured:
 2.  **AWS CLI**: The AWS Command Line Interface is required to interact with your AWS account. Follow the instructions to [install the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html).
 3.  **AWS Account and Admin User**: You will need an AWS account. It is strongly recommended to create an IAM user with administrative permissions and configure your AWS CLI to use these credentials. Using the root account is discouraged.
 
-## Available Labs
-
-*   **Vulnerable-ASG**: A scenario demonstrating a vulnerable Auto Scaling Group configuration. See the `Scenario.md` file within the `Vulnerable-ASG` directory for more details.
-*   **Vulnerable-Lambda**: A scenario demonstrating a Server-Side Request Forgery (SSRF) vulnerability in an AWS Lambda function allowing file reads. See the `Scenario.md` file within the `Vulnerable-Lambda` directory for more details.
-*   **EC2-Privesc-UserData**: A scenario demonstrating EC2 privilege escalation by abusing `ec2:ModifyInstanceAttribute` to overwrite instance user data. See the `Scenario.md` file within the `EC2-Privesc-UserData` directory for more details.
-
 ## How to Use
 
 1.  Clone this repository.
