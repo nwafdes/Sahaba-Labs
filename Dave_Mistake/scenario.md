@@ -1,6 +1,6 @@
 # CTF Scenario: The Open Backdoor
 
-A developer named "Dave" was struggling to get Cross-Account access working between the Production and Staging accounts. To troubleshoot, he temporarily set the IAM Role's Trust Policy to allow Any AWS Account ("AWS": "*") to assume it. He fixed the code but forgot to apply the changes. Worse, he accidentally uploaded the deployment log—which contains the Role ARN—to a public S3 bucket meant for hosting a website's assets.
+A developer named "Mohammed" was struggling to get Cross-Account access working between the Production and Staging accounts. To troubleshoot, he temporarily set the IAM Role's Trust Policy to allow Any AWS Account ("AWS": "*") to assume it. He fixed the code but forgot to apply the changes. Worse, he accidentally uploaded the deployment log—which contains the Role ARN—to a public S3 bucket meant for hosting a website's assets.
 
 This is a textbook "Cloud Breach" scenario. It highlights how a small information leak (an ARN) combined with a misconfiguration (Wildcard Trust) leads to total compromise.
 
